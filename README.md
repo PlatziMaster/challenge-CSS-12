@@ -1,4 +1,4 @@
-# 🥕 Challenge CSS 13
+# 🥕 Challenge CSS 12
 
 CSS Grid: Navbar
 
@@ -32,4 +32,4 @@ Si quieres agregar o mejorar algo, te invito a colaborar directamente en este re
 
 ## 🥕 Licencia
 
-challenge-html-06 se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+challenge-CSS-12 se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
