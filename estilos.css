@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    }
+
+  body {
+    background-image: url("https://wallpaperset.com/w/full/b/7/4/462755.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Source Sans Pro", "Helvetica Neue",;
+  }
+
+  .bottom-bar {
+    background-color: #fff;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 30px 50px;
+    box-shadow: 0px 20px 90px rgba(50, 50, 50, 0.3);
+  }
+  .bottom-bar--items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .bottom-bar--item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 15px 25px;
+  }
+  .bottom-bar--item:not(:last-child) {
+    margin-right: 15px;
+  }
+  .bottom-bar--item:nth-child(1) .name {
+    color: #5b37b7;
+  }
+  .bottom-bar--item:nth-child(1) [type="radio"]:checked ~ .icon svg {
+    stroke: #5b37b7;
+  }
+  .bottom-bar--item:nth-child(1) [type="radio"]:checked ~ label {
+    background-color: rgba(91, 55, 183, 0.25);
+  }
+  .bottom-bar--item:nth-child(2) .name {
+    color: #c33c96;
+  }
+  .bottom-bar--item:nth-child(2) [type="radio"]:checked ~ .icon svg {
+    stroke: #c33c96;
+  }
+  .bottom-bar--item:nth-child(2) [type="radio"]:checked ~ label {
+    background-color: rgba(195, 60, 150, 0.25);
+  }
+  .bottom-bar--item:nth-child(3) .name {
+    color: #c33c96;
+  }
+  .bottom-bar--item:nth-child(3) [type="radio"]:checked ~ .icon svg {
+    stroke: #e6a919;
+  }
+  .bottom-bar--item:nth-child(3) [type="radio"]:checked ~ label {
+   background-color: rgba(17, 148, 170, 0.25);
+  }
+  .bottom-bar--item:nth-child(4) .name {
+    color: #1194aa;
+  }
+  .bottom-bar--item:nth-child(4) [type="radio"]:checked ~ .icon svg {
+    stroke: #1194aa;
+  }
+  .bottom-bar--item:nth-child(4) [type="radio"]:checked ~ label {
+    background-color: rgba(17, 148, 170, 0.25);
+  }
+  .bottom-bar--item label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 30px;
+    flex: none;
+    background-color: rgba(255, 255, 255, 0);
+    transition: background-color 0.15s ease-in-out;
+  }
+  .bottom-bar--item [type="radio"] {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 0;
+    -webkit-appearance: none;
+    flex: none;
+  }
+  .bottom-bar--item [type="radio"]:checked ~ .name {
+    margin-left: 15px;
+    display: block;
+    width: 100%;
+  }
+  .bottom-bar--item .icon svg {
+    stroke: #000;
+  }
+  .bottom-bar--item .name {
+    font-weight: 600;
+    font-size: 16px;
+    width: 0%;
+    margin-left: -15px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(68, 103, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+ }
