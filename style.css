@@ -1,0 +1,77 @@
+.body {
+    background: radial-gradient(circle, rgba(5,189,168,0.5270483193277311) 50%, rgba(140,157,155,1) 89%);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+}
+
+/* ----- Contenedores principales ----- */
+
+.container1 {
+
+    border: 1px solid rgba(0,0,0,.54);
+    background: white;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 15%;
+    width: 40%;
+    height: 200px;
+}
+
+.container2 {
+    
+    border:  1px solid white;
+    margin: 10px;
+    height: 178px;
+    background: #7412c3;
+
+}
+
+.container3 {
+    
+    display: grid;
+    grid-template: 1fr / repeat(4, 1fr);
+    background: white;
+    margin: 20px;
+    height: 135px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding-left: 30px;
+    overflow: hidden;
+
+}
+
+/* ----- items representan cada espacio de ubicacion de iconos ----- */
+
+.item1, .item2, .item3, .item4 {
+    
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.item1 {
+    border: 1px solid white;
+    background: #a9a9a98a;
+    border-radius: 20px;
+    display: grid;
+    grid-template: 1fr / repeat(2, 1fr);
+    height: 50px;
+    width: 150px;
+    margin-top: 27%;
+    margin-bottom: 28%;
+    
+}
+
+.img_home__item1, .text_item1 {
+
+    justify-self: center;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #7412c3;
+}
+
+/* ----- fin ----- */
