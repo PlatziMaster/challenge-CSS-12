@@ -3,7 +3,7 @@
 CSS Grid: Navbar
 
 ## 🐇 Resultado
-
+- Deploy [Launch!](https://hectordevx.github.io/css-12__challenge/)
 <kbd>
 <img width="400" src="./assets/result.png" />
 </kbd>
